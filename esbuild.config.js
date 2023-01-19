@@ -27,6 +27,7 @@ const __dirname = dirname(__filename)
     aliasPlugin({
       '@/components': path.resolve(__dirname, './src/components'),
       '@/services': path.resolve(__dirname, './src/services'),
+      '@/routes': path.resolve(__dirname, './src/routes'),
       '@/utils': path.resolve(__dirname, './src/utils'),
       '@/assets': path.resolve(__dirname, './src/assets'),
       '@/mocks': path.resolve(__dirname, './src/mocks')
